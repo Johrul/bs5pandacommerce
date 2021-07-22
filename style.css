@@ -1,3 +1,9 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
 .navbar-toggler-icon{
     color: red!important;
 }
@@ -47,3 +53,4 @@
 .carousel-control-next, .carousel-control-prev{
     width: 5%;
 }
+
