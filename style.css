@@ -1,0 +1,46 @@
+.navbar-toggler-icon{
+    color: red!important;
+}
+.btn-panda{
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 208, 0));
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: whitesmoke;
+    font-weight: 600;
+    transition: 0.3s linear ease-in-out;
+    z-index: 1000;
+}
+.btn-panda:hover{
+    box-shadow: 0 0 20px  5px rgba(0,0,0, .3);
+    transform: scale(1.05);
+}
+.panda-bg-info{
+    background-color: #feeae9;
+    
+}
+.carousel-control-prev-icon {
+    
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    padding: 0;
+    margin: 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev{
+    padding: 0;
+}
+.carousel-indicators [data-bs-target].active{
+    background-color: black;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: red;
+    width: 40px;
+    height: 20px;
+    border: 5px solid rgba(0,0,0, .1) ;
+    opacity: 1;
+    position: relative;
+    margin: 10px;
+    padding: 0;
+}
